@@ -1,0 +1,1262 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.15f1 (e767a7370072) revision 15165351'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1706; Version 2009; 64bit' Language: 'en' Physical Memory: 12109 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/NaFis/OneDrive/Documents/Fisher_Project3/Fisher_Project3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53387
+Successfully changed project path to: C:/Users/NaFis/OneDrive/Documents/Fisher_Project3/Fisher_Project3
+C:/Users/NaFis/OneDrive/Documents/Fisher_Project3/Fisher_Project3
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 118.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.15f1 (e767a7370072)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/NaFis/OneDrive/Documents/Fisher_Project3/Fisher_Project3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     1983 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003752 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 136.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.168 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2168ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012829 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\NaFis\OneDrive\Documents\Fisher_Project3\Fisher_Project3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\NaFis\OneDrive\Documents\Fisher_Project3\Fisher_Project3\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1635ms)
+		BeginReloadAssembly (203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1323ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (531ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.6 MB.
+System memory in use after: 117.8 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3525.
+Total: 5.088000 ms (FindLiveObjects: 0.411800 ms CreateObjectMapping: 0.267600 ms MarkObjects: 4.275100 ms  DeleteObjects: 0.132100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles
+  artifactKey: Guid(99b531c8964d97245a8f67495e2a1a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles using Guid(99b531c8964d97245a8f67495e2a1a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb614fcbdc851d950ae5b7bde250f6b') in 0.019279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015368 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@TakeDamage.controller
+  artifactKey: Guid(aa595dbe63237734cb918763f97f9ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@TakeDamage.controller using Guid(aa595dbe63237734cb918763f97f9ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd5efdbefdf1f959bfba87c413f7ddf') in 0.078310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011368 seconds.
+  path: Assets/HalloweenMonstersGhost/Models
+  artifactKey: Guid(aa824dde3e77f3f49b2c8e30a06ac400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HalloweenMonstersGhost/Models using Guid(aa824dde3e77f3f49b2c8e30a06ac400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd927c4b377dd69fd0ce6e08d89a862') in 0.010917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018831 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/doorway1.prefab
+  artifactKey: Guid(0b7f3b033306b6d4b956436528383403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/doorway1.prefab using Guid(0b7f3b033306b6d4b956436528383403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c039b40285938d44a4083b5cb6bb227') in 0.203250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015201 seconds.
+  path: Assets/HalloweenMonstersGhost/PrefabsSingle
+  artifactKey: Guid(b39c15cbe1961a249bc57e341cd7116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HalloweenMonstersGhost/PrefabsSingle using Guid(b39c15cbe1961a249bc57e341cd7116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2917b1163f1f0d91ab801cdfcd2d4d9') in 0.012875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013384 seconds.
+  path: Assets/Scripts/GhostBehavior/InkyBehavior.cs
+  artifactKey: Guid(9cfd438964da0dc43b890c43b6fb67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GhostBehavior/InkyBehavior.cs using Guid(9cfd438964da0dc43b890c43b6fb67fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10acd5cccbfc18392fd4dcf017d73498') in 0.023123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022135 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx
+  artifactKey: Guid(46d5b47e60163f148ada32ff97c7aa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01.fbx using Guid(46d5b47e60163f148ada32ff97c7aa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c3f8baeaee6451f0508bd0ad4c4c37') in 0.209433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007582 seconds.
+  path: Assets/HalloweenMonstersGhost/Models/Materials
+  artifactKey: Guid(57e4fecb225d4f141b7ca4d680fb21df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HalloweenMonstersGhost/Models/Materials using Guid(57e4fecb225d4f141b7ca4d680fb21df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c529c000526e7f6bce11f4f0b061cb') in 0.009610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021003 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01 [RM].fbx
+  artifactKey: Guid(7eebd174ff53112419b27f9d903573d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01 [RM].fbx using Guid(7eebd174ff53112419b27f9d903573d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe23ff385d7948a39c857ffcf936abc7') in 0.027113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015155 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/floor2.prefab
+  artifactKey: Guid(cedd1289634600b4f9df04d76c4c2b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/floor2.prefab using Guid(cedd1289634600b4f9df04d76c4c2b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2c53e54e75bebaf1c60503cb3d8466') in 0.046480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020451 seconds.
+  path: Assets/Character/FreeCharacter/FreeCharacter_01.FBX
+  artifactKey: Guid(7d3425a6c7317e048be11c2ff72db69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/FreeCharacter/FreeCharacter_01.FBX using Guid(7d3425a6c7317e048be11c2ff72db69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10bbae65a1e585801f71495ccaf151e') in 0.314069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020619 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/pillar2.prefab
+  artifactKey: Guid(fb3f840c826314847ba67aaf7e4aef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/pillar2.prefab using Guid(fb3f840c826314847ba67aaf7e4aef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10962996af60c98472f096274f72e8aa') in 0.046890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035893 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx
+  artifactKey: Guid(0536f044bd409ff419dd726bc69d2676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01.fbx using Guid(0536f044bd409ff419dd726bc69d2676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5f1d41a1db34c85c8d074bf04b78ec') in 0.039340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009902 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations
+  artifactKey: Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations using Guid(7eb11f9df068c2b45bc52cfc0d6e3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64db3196c89a4c0679f4d08a0d41deb') in 0.012887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015714 seconds.
+  path: Assets/Scripts/GhostBehavior/GhostAnimations.cs
+  artifactKey: Guid(663064cbb1172324fa1de59db8b0a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GhostBehavior/GhostAnimations.cs using Guid(663064cbb1172324fa1de59db8b0a7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c059b71ff75abd278f4148266bb806') in 0.012829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014748 seconds.
+  path: Assets/Scripts/ScoreText.cs
+  artifactKey: Guid(76000500547ba8345aae480507f03a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoreText.cs using Guid(76000500547ba8345aae480507f03a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3beb412fb1f30bdd8e562b9ce4b05556') in 0.011819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009737 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded
+  artifactKey: Guid(bfb1f4cccd2e2cd4a9ec38006166f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded using Guid(bfb1f4cccd2e2cd4a9ec38006166f13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a120805315cb6d72967f0f9a7e4a460') in 0.012416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061605 seconds.
+  path: Assets/Character/FreeCharacter/Textures/Body_Normal_01.psd
+  artifactKey: Guid(b7962e4d69e932c498775fe53fe19305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/FreeCharacter/Textures/Body_Normal_01.psd using Guid(b7962e4d69e932c498775fe53fe19305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50049808b10559f8d2cd6c5942320b9') in 0.109126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016171 seconds.
+  path: Assets/Character/FreeCharacter/Free_Character_01.rar
+  artifactKey: Guid(f3b97c04b16b432478934d292afa6cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/FreeCharacter/Free_Character_01.rar using Guid(f3b97c04b16b432478934d292afa6cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183bcad2bfe45915f79dd1419080840b') in 0.013590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012452 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/carpet3.prefab
+  artifactKey: Guid(eddf42ac28e1a0f4fb79767394e23cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/carpet3.prefab using Guid(eddf42ac28e1a0f4fb79767394e23cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e5be3f390e2463ddffb64bcacf8a41') in 0.041433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013745 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/candleholder3.prefab
+  artifactKey: Guid(3f4cd64e876070c40b64e92d6ad7daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/candleholder3.prefab using Guid(3f4cd64e876070c40b64e92d6ad7daf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1456297e3359fa378d63a9ea5e9265e8') in 0.031552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012586 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/light.prefab
+  artifactKey: Guid(597a8fc81ae1f9248b5ac19ad1e453c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/light.prefab using Guid(597a8fc81ae1f9248b5ac19ad1e453c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac553f5d7e0f680e1df2841374c62c31') in 0.020654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020335 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx
+  artifactKey: Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle01.fbx using Guid(a3422ad278cd9a94aa3da8e6bff9deea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b55fcac2898e04d9e11b5a834faf81') in 0.017577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011583 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/wall3.prefab
+  artifactKey: Guid(edf36f15892d1fb4d913feaa9b0a6dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/wall3.prefab using Guid(edf36f15892d1fb4d913feaa9b0a6dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8035d3045087d8ef891092d9d55e5512') in 0.033593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021627 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/candleholder2.prefab
+  artifactKey: Guid(c6fda97e2f85f854388b401808f813c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/candleholder2.prefab using Guid(c6fda97e2f85f854388b401808f813c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21eb2f016a47fac74b4600d5480161ac') in 0.046255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014306 seconds.
+  path: Assets/Modular Castle/Assets/particles
+  artifactKey: Guid(3ad6ddda7ded07f469a8f2851b303129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/particles using Guid(3ad6ddda7ded07f469a8f2851b303129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede8e15dc2b6099e5d54efc999fa567e') in 0.016615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019654 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackwardLeft.controller
+  artifactKey: Guid(d2575006a30e3874184495ee08a763ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackwardLeft.controller using Guid(d2575006a30e3874184495ee08a763ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ef6796530add61bbca6e5d461ee529') in 0.023113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021040 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/box3.prefab
+  artifactKey: Guid(13edd2ee365a97d4aa571acdb0a7d83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/box3.prefab using Guid(13edd2ee365a97d4aa571acdb0a7d83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4ce3f6d21c853cfc7972c2b896dbf1') in 0.054477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019896 seconds.
+  path: Assets/Scripts/NewPlayerController.cs
+  artifactKey: Guid(bea405091898893428bf4aa9ccdf87da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewPlayerController.cs using Guid(bea405091898893428bf4aa9ccdf87da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa64364266515fc698cb4c8ca3fa9f5') in 0.015835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022036 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand/RightHand@Attack01.fbx
+  artifactKey: Guid(f1613afb92638e743bace9a9392b5ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand/RightHand@Attack01.fbx using Guid(f1613afb92638e743bace9a9392b5ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd6d7fad6254e34cdd1120bef02aebf') in 0.024687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017071 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/wall2 1.prefab
+  artifactKey: Guid(b84cdff1414a1094d995361dae7b91b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/wall2 1.prefab using Guid(b84cdff1414a1094d995361dae7b91b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d483bac58e23b8ad129a68e1f77d921') in 0.050310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010834 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand
+  artifactKey: Guid(e25a9f53f210bc341872e124a41d463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/RightHand using Guid(e25a9f53f210bc341872e124a41d463d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c8f6da59cbd3da2b16fc1a3e45606d') in 0.012217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024762 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/candle2.prefab
+  artifactKey: Guid(a3eea591edd85e94e9c893525e335cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/candle2.prefab using Guid(a3eea591edd85e94e9c893525e335cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00d0b99bd83cb0a1a89baa0544cdbb3') in 0.041680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044278 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/decoration3.prefab
+  artifactKey: Guid(e4c9015087da2854dbbd1ef410f75a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/decoration3.prefab using Guid(e4c9015087da2854dbbd1ef410f75a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8685158a52e72f823230435bd24a97') in 0.039192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023425 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx
+  artifactKey: Guid(067cc188e25b78b4a940a9fa67cd6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Jump01.fbx using Guid(067cc188e25b78b4a940a9fa67cd6ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf90e8c528a142d861c1fb1c8bf5daa9') in 0.023563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013058 seconds.
+  path: Assets/Scripts/PlayerProjectile.cs
+  artifactKey: Guid(a19bb442311059c469deb5998d89f7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerProjectile.cs using Guid(a19bb442311059c469deb5998d89f7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7041506ef8fb091d241c59effba2d10') in 0.009967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037109 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/wall2.prefab
+  artifactKey: Guid(15a08d7d20037d54a9c4a4a557df23e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/wall2.prefab using Guid(15a08d7d20037d54a9c4a4a557df23e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac0a5730e968fd15ca69068eea7e127') in 0.030503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014051 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/box1.prefab
+  artifactKey: Guid(a67e15b1ca208c641a5b4e1e20844590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/box1.prefab using Guid(a67e15b1ca208c641a5b4e1e20844590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1142839e3d9995a5d4e09cfee0e6e0d9') in 0.031249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030832 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/torch.prefab
+  artifactKey: Guid(483ae661964d12e4f99b524da50200d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/torch.prefab using Guid(483ae661964d12e4f99b524da50200d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93272caa356067d790de469e5f83d56') in 0.030974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015136 seconds.
+  path: Assets/Modular Castle/Assets/textures/light.png
+  artifactKey: Guid(b68fcacd97efa4e4e85adb8475207126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/textures/light.png using Guid(b68fcacd97efa4e4e85adb8475207126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663c5ce5bca48078d96037253fd088b6') in 0.030750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009733 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Shield
+  artifactKey: Guid(cf67dfc4b6ae1ba4baf37e7820474c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Shield using Guid(cf67dfc4b6ae1ba4baf37e7820474c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8932991f6ae7f0039de4f790af999c05') in 0.009291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011270 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/sword.prefab
+  artifactKey: Guid(c34a67cb83e3b5449b55243207b1b621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/sword.prefab using Guid(c34a67cb83e3b5449b55243207b1b621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8566af7334c057dc695e13f672571df1') in 0.031430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008444 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers
+  artifactKey: Guid(2772e80ca8ca2eb438c6fad54e343aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers using Guid(2772e80ca8ca2eb438c6fad54e343aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118a4c1a46c9f8776a59b6e3b41430ed') in 0.010244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006938 seconds.
+  path: Assets/Modular Castle/Assets/models
+  artifactKey: Guid(6a1215f2f81eee648ad2e1e7307004fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/models using Guid(6a1215f2f81eee648ad2e1e7307004fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36357d3a3ef8b104d682fc5613c90eed') in 0.013808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018370 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/candleholder1.prefab
+  artifactKey: Guid(775d4760f9d1bd4439ee44c29ee69e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/candleholder1.prefab using Guid(775d4760f9d1bd4439ee44c29ee69e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9ce3fb6bb56226c4c2dae34094d3b0') in 0.059609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021195 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/pillar_small1.prefab
+  artifactKey: Guid(f18c80e40f3eae04a943a2e61d870d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/pillar_small1.prefab using Guid(f18c80e40f3eae04a943a2e61d870d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da32f76db092ae6bf482759669bc1b3') in 0.042239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052165 seconds.
+  path: Assets/Scripts/Door.cs
+  artifactKey: Guid(1fe74c469dbb96c4080f43222717cb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Door.cs using Guid(1fe74c469dbb96c4080f43222717cb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf3be74e0ca86ed9b665d3f96d18cf6') in 0.015480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016864 seconds.
+  path: Assets/Character/FreeCharacter/Textures/Body_Cube_01.cubemap
+  artifactKey: Guid(526f476039ebee544874f76e9bc8b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/FreeCharacter/Textures/Body_Cube_01.cubemap using Guid(526f476039ebee544874f76e9bc8b3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd06259abebe5cc941fdc5cb00c98f2') in 0.073339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022473 seconds.
+  path: Assets/HalloweenMonstersGhost/ModelsSingle/Character_Chost.fbx
+  artifactKey: Guid(93f175331b13808429d4b085140d308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HalloweenMonstersGhost/ModelsSingle/Character_Chost.fbx using Guid(93f175331b13808429d4b085140d308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9581e27c9833d3569a87df2f4b52b998') in 0.061831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011911 seconds.
+  path: Assets/Modular Castle/Assets/prefabs
+  artifactKey: Guid(18a71fef6cfd6914eb8b70dc5af4f840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs using Guid(18a71fef6cfd6914eb8b70dc5af4f840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbe2f9c01e894ea7ffb4dcbe8316600') in 0.014033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014292 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunRight.controller
+  artifactKey: Guid(241c15a4a054daf47b6c962af157525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunRight.controller using Guid(241c15a4a054daf47b6c962af157525c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e0bebbaadeba504381d2d4bf7ea820') in 0.015835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014003 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/stairs1.prefab
+  artifactKey: Guid(996c5ca3ae0ceae41aeba2b1f9f7ec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/stairs1.prefab using Guid(996c5ca3ae0ceae41aeba2b1f9f7ec9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7b0fee320c0b5371783dd0db26fdd8') in 0.036834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014827 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/wall3 1.prefab
+  artifactKey: Guid(a989f3d54d02f934fba9ce9f04202bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/wall3 1.prefab using Guid(a989f3d54d02f934fba9ce9f04202bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62405a9dadc13702710211d37dd93efb') in 0.034494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012662 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/pillar1.prefab
+  artifactKey: Guid(7250e3ee64608cf4ebd2df16b04e2e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/pillar1.prefab using Guid(7250e3ee64608cf4ebd2df16b04e2e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e1576520a27dd57b6b226967e7dab8') in 0.036077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014039 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/pillar_small2.prefab
+  artifactKey: Guid(720d5674259cf2e4f9c0bc8698ed5c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/pillar_small2.prefab using Guid(720d5674259cf2e4f9c0bc8698ed5c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd786932ea6fea9db83e290fb3f8de4') in 0.038810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021434 seconds.
+  path: Assets/Modular Castle/Assets/textures/castle.png
+  artifactKey: Guid(c1fd7ade2bee9c94d8d41c6a0107d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/textures/castle.png using Guid(c1fd7ade2bee9c94d8d41c6a0107d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6983898e0720f12bd25b162ac6c7323') in 0.027894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027877 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(27efd2abd0d8d344db647a7887d514b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(27efd2abd0d8d344db647a7887d514b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84dd61a2642a8f622c0f8236acf8edce') in 0.009227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010730 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunForwardRight.controller
+  artifactKey: Guid(11c7fa51642b6e84fba9e641167bbace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunForwardRight.controller using Guid(11c7fa51642b6e84fba9e641167bbace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e451c4c551fc013125dcc317f8dca959') in 0.013108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006512 seconds.
+  path: Assets/HalloweenMonstersGhost
+  artifactKey: Guid(5ff8c1e8e0d99394c961c5cecb4cb611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HalloweenMonstersGhost using Guid(5ff8c1e8e0d99394c961c5cecb4cb611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f06919a5d7d68a872ede323380428a') in 0.008182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012898 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@ShieldAttacks.controller
+  artifactKey: Guid(bbc979b0acea15b46baed65de61b56e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@ShieldAttacks.controller using Guid(bbc979b0acea15b46baed65de61b56e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6693792ae09151e9cfb250276cf39fb') in 0.015216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014567 seconds.
+  path: Assets/Modular Castle/Assets/Materials/fire.mat
+  artifactKey: Guid(1320fca685b5006429e82a5962b29313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/Materials/fire.mat using Guid(1320fca685b5006429e82a5962b29313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bbb1b03d8d36631772869d8bdebf55') in 0.104767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020701 seconds.
+  path: Assets/Prefabs/Inky.prefab
+  artifactKey: Guid(ed9466a1be161ef4394c45e8879914b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Inky.prefab using Guid(ed9466a1be161ef4394c45e8879914b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52eb911b4bb26eacdb383cc1ce6da7d5') in 0.046254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024637 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Shield/Shield@ShieldAttack01.fbx
+  artifactKey: Guid(008afb724902e7c49b099951c0e5aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Shield/Shield@ShieldAttack01.fbx using Guid(008afb724902e7c49b099951c0e5aa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08389c9043fda799c10888d26a038ce') in 0.023913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018702 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/mannequin.prefab
+  artifactKey: Guid(16d6f63f1f03dc64c8c86de4122100c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/mannequin.prefab using Guid(16d6f63f1f03dc64c8c86de4122100c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66d9c79eaa7b3fcb489ef58f035c6ff') in 0.045831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018156 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/box3.prefab
+  artifactKey: Guid(40064a3eba9f8ef4db78ee0fbcd75c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/box3.prefab using Guid(40064a3eba9f8ef4db78ee0fbcd75c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168207fabca4bb7bc08da2a534cc848a') in 0.039924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017354 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/helmet.prefab
+  artifactKey: Guid(d7f215de872d78e48aece7c979158bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/helmet.prefab using Guid(d7f215de872d78e48aece7c979158bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186be5bd61899b031def7b5962776ee1') in 0.042954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021295 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/candles.prefab
+  artifactKey: Guid(cfd933ac2c858574ba335dccf8a2f6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/candles.prefab using Guid(cfd933ac2c858574ba335dccf8a2f6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02995f413fb2c90eb279be6d8f2d626c') in 0.054389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014363 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunForward.controller
+  artifactKey: Guid(bc76af0d5ade37747bd4f4a7a41637b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunForward.controller using Guid(bc76af0d5ade37747bd4f4a7a41637b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd733f714bc6277d1aa8d56ab1e7e143') in 0.014001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012646 seconds.
+  path: Assets/Character/FreeCharacter/Materials/Body_01.mat
+  artifactKey: Guid(dd57fea2d38633a42be0ca58ae57c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/FreeCharacter/Materials/Body_01.mat using Guid(dd57fea2d38633a42be0ca58ae57c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f21ac75508122b5fd9d412e518fa2a') in 0.036174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039765 seconds.
+  path: Assets/Character/FreeCharacter/Textures/Body_Diffuse_01.psd
+  artifactKey: Guid(c4772712b065971448eb46d50d6e9a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/FreeCharacter/Textures/Body_Diffuse_01.psd using Guid(c4772712b065971448eb46d50d6e9a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46f224108426a23e5361936d88d887f') in 0.024430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014729 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/barrel.prefab
+  artifactKey: Guid(8375007ef859c184f93134dbe213e44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/barrel.prefab using Guid(8375007ef859c184f93134dbe213e44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0214f26c89d70100d460abfe0645806f') in 0.036792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013372 seconds.
+  path: Assets/Modular Castle/Assets/particles/fire2.prefab
+  artifactKey: Guid(3c061f6153e0ea04c974559b602d8704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/particles/fire2.prefab using Guid(3c061f6153e0ea04c974559b602d8704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbe90adf1b4cbf89ce9de5b9c05956e') in 0.017157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012715 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/litter1.prefab
+  artifactKey: Guid(d2bf29c4c2836f1439107ad7e08dd160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/litter1.prefab using Guid(d2bf29c4c2836f1439107ad7e08dd160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e9b6850da02a714fcbfed751164206') in 0.032174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016516 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@CombatIdle01.fbx
+  artifactKey: Guid(f8c2d6a0ce3bc2d40b090cd67dd23862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@CombatIdle01.fbx using Guid(f8c2d6a0ce3bc2d40b090cd67dd23862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639e9f114f9ea2477079b9fc47fa9688') in 0.013388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012323 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/axe.prefab
+  artifactKey: Guid(16b050d469263fb4199ffa2bcf18bc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/axe.prefab using Guid(16b050d469263fb4199ffa2bcf18bc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d44b00ee9f178408bb5ecab1d59acd') in 0.033558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015107 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/stand for weapons.001.prefab
+  artifactKey: Guid(acf8a0d570d766442b8574649973226e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/stand for weapons.001.prefab using Guid(acf8a0d570d766442b8574649973226e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a01d39865702f40d3fdab49c1a6703') in 0.056007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020671 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunForwardLeft.controller
+  artifactKey: Guid(d0b65a176c74f6b4cab2f8005fd0eef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunForwardLeft.controller using Guid(d0b65a176c74f6b4cab2f8005fd0eef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643829b1ce28e1bff6b76e84bc079148') in 0.021707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019215 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Run.controller
+  artifactKey: Guid(eb79e3fd0dd669f40a90a984b92a0ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Run.controller using Guid(eb79e3fd0dd669f40a90a984b92a0ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d9a5816ee65073d16e775e38364dde') in 0.022637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011237 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(046abdbd8c50c834fb529595d605ea1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(046abdbd8c50c834fb529595d605ea1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580411690aa285d4aef28634f3bf0120') in 0.006376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017426 seconds.
+  path: Assets/Scripts/DestroyShot.cs
+  artifactKey: Guid(f1545b886197e7846bbc13f10e2ae9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DestroyShot.cs using Guid(f1545b886197e7846bbc13f10e2ae9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd38ee403db42d2c27b63e578d105ed') in 0.014304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010857 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers
+  artifactKey: Guid(417d464edc4cb2e4cbd6c35b77690a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers using Guid(417d464edc4cb2e4cbd6c35b77690a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccdd75903857ffafedcd953cce8c577') in 0.012172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016670 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/candle3.prefab
+  artifactKey: Guid(635c0c417a0e8354ab3fbaf97c4820db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/candle3.prefab using Guid(635c0c417a0e8354ab3fbaf97c4820db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0341d3367dbc44c43d454a1f15393e78') in 0.045260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018426 seconds.
+  path: Assets/Character Controllers/GhostController.controller
+  artifactKey: Guid(61d50047ec098b842a4a3dd83298f06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Controllers/GhostController.controller using Guid(61d50047ec098b842a4a3dd83298f06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3f11c44e41c23374b5f432a6818e98') in 0.021019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019656 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/torch.prefab
+  artifactKey: Guid(2b28d52e9282f5844af4fa29dc0c1032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/torch.prefab using Guid(2b28d52e9282f5844af4fa29dc0c1032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d39fc95c19c95806d1930ae1656a95') in 0.042851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053693 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Sprint01.fbx
+  artifactKey: Guid(6d3c15f13c10feb4f89c2078fb15fdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Sprint01.fbx using Guid(6d3c15f13c10feb4f89c2078fb15fdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8210de0a30c53e814ae82e6dc97d5f') in 0.021163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012748 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/candle1.prefab
+  artifactKey: Guid(77199120630e1734e8e77e3c2f9cf50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/candle1.prefab using Guid(77199120630e1734e8e77e3c2f9cf50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac058fa9edf77a7a95bfe13dc81eff0') in 0.039587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013456 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/pillow.prefab
+  artifactKey: Guid(27d3a78beda859f4e9003304f0762f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/pillow.prefab using Guid(27d3a78beda859f4e9003304f0762f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebeb1d409ce98df0d0269fb3fe2d48f3') in 0.031429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012831 seconds.
+  path: Assets/Character Controllers/PlayerController.controller
+  artifactKey: Guid(a406ec4d8ecd2d14daf111ddd13142df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Controllers/PlayerController.controller using Guid(a406ec4d8ecd2d14daf111ddd13142df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e8192a0f2eaee7c166cc966458042d') in 0.018882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021234 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01 [RM].fbx
+  artifactKey: Guid(154a724602422044c91070a5f3c67c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Run01 [RM].fbx using Guid(154a724602422044c91070a5f3c67c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34892f717a1510d54f0ad92009badcf2') in 0.023077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048123 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/box2 1.prefab
+  artifactKey: Guid(e2c29ad643284ce40848a9be62cbd991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/box2 1.prefab using Guid(e2c29ad643284ce40848a9be62cbd991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a9b4568e59e77068a1178d79587f65') in 0.029614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012135 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/decoration2.prefab
+  artifactKey: Guid(c7b19c08f7e17a24ba76c6017f0528ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/decoration2.prefab using Guid(c7b19c08f7e17a24ba76c6017f0528ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344d940ead68d5fd96c16e99b7f1383a') in 0.034694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013276 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@CombatIdle.controller
+  artifactKey: Guid(92efc5a6051953a4db45a52f72df44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@CombatIdle.controller using Guid(92efc5a6051953a4db45a52f72df44cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6152bfb4c96e2ee1b629d4d6e282f9') in 0.010735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011478 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/litter2.prefab
+  artifactKey: Guid(d5afe70bc0cd8744fbc4d8ca3b19957a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/litter2.prefab using Guid(d5afe70bc0cd8744fbc4d8ca3b19957a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c512fa197554f7b645f72f3253ece2') in 0.037082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018838 seconds.
+  path: Assets/HalloweenMonstersGhost/Models/Materials/Halloween.mat
+  artifactKey: Guid(5aefed8c05cd76a468551d6243807299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HalloweenMonstersGhost/Models/Materials/Halloween.mat using Guid(5aefed8c05cd76a468551d6243807299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee76e1e07040f1ede45f3110605564e') in 0.056840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013105 seconds.
+  path: Assets/HalloweenMonstersGhost/ModelsSingle
+  artifactKey: Guid(035d39e42119d294cacc88bbb0065448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HalloweenMonstersGhost/ModelsSingle using Guid(035d39e42119d294cacc88bbb0065448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fc3898508c63bc92a033456d9035b1') in 0.017465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018346 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/candleholder2.prefab
+  artifactKey: Guid(b8bf93473c538e9438e008b08ea75354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/candleholder2.prefab using Guid(b8bf93473c538e9438e008b08ea75354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137ef02850f39eff22612d59e8cd56c2') in 0.039045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024613 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@TakeDamage01.fbx
+  artifactKey: Guid(b02430a054524da49b8a1b7470eb4b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/1H@TakeDamage01.fbx using Guid(b02430a054524da49b8a1b7470eb4b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81148af7afe23bb11630b7ec755bbaec') in 0.024698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035508 seconds.
+  path: Assets/Modular Castle/Assets/textures/castle_metalic.psd
+  artifactKey: Guid(1487e4bf1a17ae549b9f925b9c733f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/textures/castle_metalic.psd using Guid(1487e4bf1a17ae549b9f925b9c733f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03098ab6a8f409419e6720a420b3b884') in 0.039533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012097 seconds.
+  path: Assets/Modular Castle/Assets
+  artifactKey: Guid(bd5bd5b7a71ce7e4ea393445ffc7fc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets using Guid(bd5bd5b7a71ce7e4ea393445ffc7fc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd75251684222b6c19be7e8489f3cc93') in 0.014813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012627 seconds.
+  path: Assets/AnimatorControllers
+  artifactKey: Guid(2bb1e1fad3d5a304c8d34b715f1278e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorControllers using Guid(2bb1e1fad3d5a304c8d34b715f1278e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697b6433475cf944f885a4cbd03a28b2') in 0.007131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016056 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@Sprint.controller
+  artifactKey: Guid(91afbd9fdd9920a43b49f3f4537ffff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@Sprint.controller using Guid(91afbd9fdd9920a43b49f3f4537ffff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f17f832cfc901a08f301e640f990dc0') in 0.019061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010146 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement
+  artifactKey: Guid(a871c4a4cdca307409554c143a25aaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement using Guid(a871c4a4cdca307409554c143a25aaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2802660b40de37a4ac5146895bfb06') in 0.014322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017245 seconds.
+  path: Assets/Modular Castle/Assets/particles/fire1.prefab
+  artifactKey: Guid(c1f1c6a173fc5a34aae675702b69445a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/particles/fire1.prefab using Guid(c1f1c6a173fc5a34aae675702b69445a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee28918e7378222c9a8cea6acb25508') in 0.032869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015270 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/stairs2.prefab
+  artifactKey: Guid(9c11641965d5281408e69c5082c13c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/stairs2.prefab using Guid(9c11641965d5281408e69c5082c13c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ed01b530ee7c7aae6c63c6155ae3ea') in 0.031817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032028 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/candles 1.prefab
+  artifactKey: Guid(3033b6e2c5fe4a747a5918bfadbc019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/candles 1.prefab using Guid(3033b6e2c5fe4a747a5918bfadbc019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2782e95189212a6cf59166364e0aef57') in 0.042225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007334 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2
+  artifactKey: Guid(b9af215656bdd1f4d9e0f4e5f4d538cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2 using Guid(b9af215656bdd1f4d9e0f4e5f4d538cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a78fc2d5d9355fdb2d4b4ac91d11d2') in 0.008470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011157 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/box2.prefab
+  artifactKey: Guid(054eb6147f69e3d48b3a7a3004214f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/box2.prefab using Guid(054eb6147f69e3d48b3a7a3004214f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f8929e379527950d4f69cd15739293') in 0.034959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013739 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/box3 1.prefab
+  artifactKey: Guid(0d4775583aca9894e9208bc487190db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/box3 1.prefab using Guid(0d4775583aca9894e9208bc487190db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8d6f02cee32b286a3cdecd49fa9c6f') in 0.032996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020634 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx
+  artifactKey: Guid(69d59c13a83a7c74a8cc0607ded391ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Idles/BasicMotions@Idle02.fbx using Guid(69d59c13a83a7c74a8cc0607ded391ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd378ede717dfdec9f6221d2fd8b13a30') in 0.020698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011991 seconds.
+  path: Assets/Scripts/GhostBehavior/BlinkyBehavior.cs
+  artifactKey: Guid(fa5a66a48440f8b408021892a51635f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GhostBehavior/BlinkyBehavior.cs using Guid(fa5a66a48440f8b408021892a51635f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc573f97411743c9bebf2a1042b032db') in 0.008200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010946 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Walk.controller
+  artifactKey: Guid(75d3a58b3d7879f41926561701407a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Walk.controller using Guid(75d3a58b3d7879f41926561701407a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5916d353410a55aaec2c97b52cb7a9e5') in 0.011325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012802 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/carpet1.prefab
+  artifactKey: Guid(a4bea53168e748947a482379d038f738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/carpet1.prefab using Guid(a4bea53168e748947a482379d038f738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bba52f01146e3a5595b0782f6904fa9') in 0.037308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023283 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/mannequin 1.prefab
+  artifactKey: Guid(48c040965861d8c40befca832709a45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/mannequin 1.prefab using Guid(48c040965861d8c40befca832709a45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d76f53ac47a2c602e0ceed8cf393074') in 0.089451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016420 seconds.
+  path: Assets/Character Controllers
+  artifactKey: Guid(1b17c9aedcd8ba241abdd494f2098b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character Controllers using Guid(1b17c9aedcd8ba241abdd494f2098b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9e86273eb24623f082a5f50b0dc7d6') in 0.020517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021222 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/box.prefab
+  artifactKey: Guid(8799b841d75370f44ba4ccf79bc7658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/box.prefab using Guid(8799b841d75370f44ba4ccf79bc7658b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42713de323d05540bcc602081e32dba') in 0.047810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014672 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H
+  artifactKey: Guid(00a44ee4d6bed8f4680098a61d4308fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H using Guid(00a44ee4d6bed8f4680098a61d4308fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f64f68e3b64ed495b677c472ae011d9') in 0.014353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016379 seconds.
+  path: Assets/Scenes/MazeTest/NavMesh.asset
+  artifactKey: Guid(617bb148b17c21741857135b2e34f83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MazeTest/NavMesh.asset using Guid(617bb148b17c21741857135b2e34f83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8a7ed9ac89ee12da0d8d8278e40011') in 0.020785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007553 seconds.
+  path: Assets/Character/FreeCharacter/Materials
+  artifactKey: Guid(b2234a1e46f04e249ad1ae976aa8f164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/FreeCharacter/Materials using Guid(b2234a1e46f04e249ad1ae976aa8f164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05863f7f9654bb76cd43ceb6022083a') in 0.006182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031339 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01 [RM].fbx
+  artifactKey: Guid(bd1c2e9064da28e4fb0fe4a3f6ff4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Walk01 [RM].fbx using Guid(bd1c2e9064da28e4fb0fe4a3f6ff4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b8912ad537da018db4311cf73745b0') in 0.036309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009633 seconds.
+  path: Assets/Modular Castle/Assets/textures
+  artifactKey: Guid(f9e21ecbc2fb04e4bafa498b339b7cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/textures using Guid(f9e21ecbc2fb04e4bafa498b339b7cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3ac86efd6a7e2080c625da41df4201') in 0.010747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015708 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/wall2.prefab
+  artifactKey: Guid(b79d1646853934f4dad1e987cd05b119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/wall2.prefab using Guid(b79d1646853934f4dad1e987cd05b119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaa567004fd602706c3c94de7636639') in 0.040816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014262 seconds.
+  path: Assets/Prefabs/Clyde.prefab
+  artifactKey: Guid(fd9324ab4f0aab343af8a226ee83b6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Clyde.prefab using Guid(fd9324ab4f0aab343af8a226ee83b6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19292551e2a67f3df0eafde290abc6c1') in 0.033105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015953 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/candle1.prefab
+  artifactKey: Guid(54267a896609f27488a9af10dbd11557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/candle1.prefab using Guid(54267a896609f27488a9af10dbd11557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa77663417cc25b67c7f04b68f41b23') in 0.032213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013810 seconds.
+  path: Assets/Scripts/GhostBehavior/PinkyBehavior.cs
+  artifactKey: Guid(34bd783f8077dc444bfbdf38e78ac623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GhostBehavior/PinkyBehavior.cs using Guid(34bd783f8077dc444bfbdf38e78ac623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed86f135bb013ea8a211b82f701ef1f') in 0.009327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054746 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/wall7.prefab
+  artifactKey: Guid(cfe3a621ddd7aee4cb64ee0caa431e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/wall7.prefab using Guid(cfe3a621ddd7aee4cb64ee0caa431e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a6ae406e5953224fe15708aac90e44') in 0.039829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012458 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/candleholder1.prefab
+  artifactKey: Guid(6bae6d1df8faaf748abc9bb8d4df81c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/candleholder1.prefab using Guid(6bae6d1df8faaf748abc9bb8d4df81c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b2a95b505af5a31ac08f0c234dea32') in 0.030265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014414 seconds.
+  path: Assets/Modular Castle/Assets/models/castle.fbx
+  artifactKey: Guid(a7cc7f41ce50a474aa1df610be0b810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/models/castle.fbx using Guid(a7cc7f41ce50a474aa1df610be0b810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8abf42d4dfbfc21d7c933832b339090') in 0.781240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014089 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/stand for weapons.prefab
+  artifactKey: Guid(43672fd8c9f63724ca03d766c52c8568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/stand for weapons.prefab using Guid(43672fd8c9f63724ca03d766c52c8568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ae712498503fab57b16dcf2ce4a00a') in 0.032706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018550 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01.fbx
+  artifactKey: Guid(98d8219075968bd43b75fdba6b4463d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement/BasicMotions@Sprint01.fbx using Guid(98d8219075968bd43b75fdba6b4463d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c724a1317647fd7ede9295d6372bfab9') in 0.017382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012173 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/floor1.prefab
+  artifactKey: Guid(64cb684f38ab4e547a77225cd823cf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/floor1.prefab using Guid(64cb684f38ab4e547a77225cd823cf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55f517f3eb7ba2208afd0f32ef9d200') in 0.032084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013892 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/mannequin_armor.prefab
+  artifactKey: Guid(e6188d8b8dc4a3648b2d90a9707953dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/mannequin_armor.prefab using Guid(e6188d8b8dc4a3648b2d90a9707953dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533d81ff643cca9d404b017dfa598d9e') in 0.034555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014912 seconds.
+  path: Assets/Scenes/MazeTest.unity
+  artifactKey: Guid(195bd897ab5814a418ca7905a8becafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MazeTest.unity using Guid(195bd897ab5814a418ca7905a8becafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a015034241d161a5e4cff97294bbdb') in 0.008587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010591 seconds.
+  path: Assets/HalloweenMonstersGhost/PrefabsSingle/Character_Chost.prefab
+  artifactKey: Guid(1e53ab99435b1194a83bb713baff0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HalloweenMonstersGhost/PrefabsSingle/Character_Chost.prefab using Guid(1e53ab99435b1194a83bb713baff0dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e06a1525eab01fb11742c884aa0aaa3') in 0.025833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047492 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@RunBackwards.controller
+  artifactKey: Guid(b685c37357fd51347943d79847b19701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@RunBackwards.controller using Guid(b685c37357fd51347943d79847b19701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e487375e4f35866ec3a84a3489a158fe') in 0.030678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013097 seconds.
+  path: Assets/Character/FreeCharacter/Textures
+  artifactKey: Guid(7849f55748822f54997c8ef853e94ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/FreeCharacter/Textures using Guid(7849f55748822f54997c8ef853e94ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b16ad63c57e60d67c8bc57aae50f4b9') in 0.020122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021296 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(dee449535764d884a85f54ce219ee362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(dee449535764d884a85f54ce219ee362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf34888cc9ed8daf63edfcf54ff1421f') in 0.016213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017937 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/box2.prefab
+  artifactKey: Guid(cc099d4b9ab7d3b4287693466cb6ff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/box2.prefab using Guid(cc099d4b9ab7d3b4287693466cb6ff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a065b5a15885e954e49ea43671a267b') in 0.044813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019625 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/decoration3.prefab
+  artifactKey: Guid(31ba195dc0487cd458132f3c4f8e9e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/decoration3.prefab using Guid(31ba195dc0487cd458132f3c4f8e9e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf54c925abd0caf1ce6776187067a2c') in 0.037948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013412 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(494cc05aac832e04a8dd1263f0bb3d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(494cc05aac832e04a8dd1263f0bb3d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c369bdccd7dc213a694261ef206e2a15') in 0.014269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018313 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/wall2 2.prefab
+  artifactKey: Guid(6fb002a65bc74bf46ba6b669a1a59a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/wall2 2.prefab using Guid(6fb002a65bc74bf46ba6b669a1a59a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0ab40e1bb13e5f01477e88fde3ecd4') in 0.045429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011410 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations
+  artifactKey: Guid(4ed93f52c1a9abd46a44bf3b86d6b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations using Guid(4ed93f52c1a9abd46a44bf3b86d6b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fe5dc4cbd0103a7cf8a728ba9e73ad') in 0.014405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030308 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Run01.fbx
+  artifactKey: Guid(5fe51830c6e12034892d1041e85357b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/OneHanded/Movement/1H@Run01.fbx using Guid(5fe51830c6e12034892d1041e85357b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fb7f46137ce44a9a621e5df3c0c647') in 0.028400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014950 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/decoration3 1.prefab
+  artifactKey: Guid(449a004ce2f286f4a9f07629d41960fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/decoration3 1.prefab using Guid(449a004ce2f286f4a9f07629d41960fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb74cb13e3362a33b14210c671f2fd8e') in 0.034184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012451 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/decoration1.prefab
+  artifactKey: Guid(818577aaab88326478572f55c6d42f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/decoration1.prefab using Guid(818577aaab88326478572f55c6d42f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedf63ad20147a261570989889024206') in 0.030469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010222 seconds.
+  path: Assets/Character/FreeCharacter
+  artifactKey: Guid(ca1c0ce2b55c4a34c87fbecfc8a68ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/FreeCharacter using Guid(ca1c0ce2b55c4a34c87fbecfc8a68ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c6c3781c8c4d3d44de64a9067c65dd') in 0.010063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012173 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RHAttacks.controller
+  artifactKey: Guid(d8e90e9806751254e9d4144fc7ee3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RHAttacks.controller using Guid(d8e90e9806751254e9d4144fc7ee3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8807d09a5442805ac07c172a3784e142') in 0.012916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008529 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/Animations/Movement
+  artifactKey: Guid(162d3c986ae81044b8e9de5caae05de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/Animations/Movement using Guid(162d3c986ae81044b8e9de5caae05de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe79483b141b36c9b5f071b58c47bf6') in 0.004369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010528 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/wall1.prefab
+  artifactKey: Guid(e38067ccaff52424db35c2958d80cb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/wall1.prefab using Guid(e38067ccaff52424db35c2958d80cb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd61165d9764414e4d18ab04b793b75') in 0.032755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007717 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(9c4340de4496e8e49be89529684a82fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(9c4340de4496e8e49be89529684a82fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abedc80ad9cb478fcb1976e8eff28c2') in 0.009915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010482 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/wall4.prefab
+  artifactKey: Guid(c83073190e4a3614b9dbac2cf9c47f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/wall4.prefab using Guid(c83073190e4a3614b9dbac2cf9c47f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c87ee92bf3d34bcf053aafc8320385') in 0.032593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012685 seconds.
+  path: Assets/Prefabs/Pinky.prefab
+  artifactKey: Guid(2ba8a774f7f615143bd7a837f686495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pinky.prefab using Guid(2ba8a774f7f615143bd7a837f686495a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af52deb6b714404adb36085b98f60d6b') in 0.028030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012275 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/stand for weapons.prefab
+  artifactKey: Guid(ed6edd50fd477cc43bef42558dcbed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/stand for weapons.prefab using Guid(ed6edd50fd477cc43bef42558dcbed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2ca06be9b8f66d5095d27a48bf04c1') in 0.031614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017792 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/barrel.prefab
+  artifactKey: Guid(8c2b62e7246b8be418a40cb56f42685a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/barrel.prefab using Guid(8c2b62e7246b8be418a40cb56f42685a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97987f871e94336fd7afd5a53ab848b2') in 0.047213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020584 seconds.
+  path: Assets/Scripts/CandleMove.cs
+  artifactKey: Guid(c375caa2d0a8a834f8943270811a69d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CandleMove.cs using Guid(c375caa2d0a8a834f8943270811a69d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2360e4988c9817bfc1b98cacae77edcc') in 0.022135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018452 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/mannequin.prefab
+  artifactKey: Guid(4ac7440a8935c0c4294d324e56d64987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/mannequin.prefab using Guid(4ac7440a8935c0c4294d324e56d64987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d977047893eb6fbec40cafcaad2a9c') in 0.049389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020662 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/bed2.prefab
+  artifactKey: Guid(603974aa53b216142bc3b923a72e69a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/bed2.prefab using Guid(603974aa53b216142bc3b923a72e69a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9b04b8d5f60df73fc260c5b36dfd0b') in 0.050576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017993 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/stand for weapons.001.prefab
+  artifactKey: Guid(107ca562f4dfa2942a6692ccdefd9a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/stand for weapons.001.prefab using Guid(107ca562f4dfa2942a6692ccdefd9a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02951e259449f8735b8b8ffcc68d0e41') in 0.044019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020929 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/stand with weapons.prefab
+  artifactKey: Guid(12aa655f8b99b354ead2d832d68b25d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/stand with weapons.prefab using Guid(12aa655f8b99b354ead2d832d68b25d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7797dd0a02b6d1c30a59d9bdc57389fb') in 0.042828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011613 seconds.
+  path: Assets/Character
+  artifactKey: Guid(9c61e76596579974eaa2234504be58fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character using Guid(9c61e76596579974eaa2234504be58fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96b8c5530844e582a86d20f0787249a') in 0.012351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017304 seconds.
+  path: Assets/Modular Castle/Assets/textures/fire.png
+  artifactKey: Guid(0e0936a7d0d9eb040a63d45328770354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/textures/fire.png using Guid(0e0936a7d0d9eb040a63d45328770354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b1103c30082292e680f8873a96bcc2') in 0.023628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017339 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/MW@Death01.controller
+  artifactKey: Guid(cf46434a751dc3f409cc9baba1a8e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/MW@Death01.controller using Guid(cf46434a751dc3f409cc9baba1a8e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98a8fa7ddf64e6adba349d340731c99') in 0.016434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025051 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations/MeleeWarrior@Death01.fbx
+  artifactKey: Guid(0a205e82d4075b346b912ccfe0a0bfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations/MeleeWarrior@Death01.fbx using Guid(0a205e82d4075b346b912ccfe0a0bfd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5a02ec182f78a402c8f0eda820a820') in 0.017260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012405 seconds.
+  path: Assets/Prefabs/PlayerProjectile.prefab
+  artifactKey: Guid(b7fb58facbf765b47b4ff57f7b2d14dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerProjectile.prefab using Guid(b7fb58facbf765b47b4ff57f7b2d14dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb18a055d9feb8c58d743a19bf494b8') in 0.019778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013883 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackward.controller
+  artifactKey: Guid(705ce6546e50d914e8399e44318596e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackward.controller using Guid(705ce6546e50d914e8399e44318596e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40ab0f2060cc68abc85336a27b12e8c') in 0.011347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013744 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/candle2.prefab
+  artifactKey: Guid(197f1dd69d9d0e345a27bdc2001f4358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/candle2.prefab using Guid(197f1dd69d9d0e345a27bdc2001f4358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e872d1fcb3cd89121ae4a73614e1c809') in 0.031622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008861 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/Animations
+  artifactKey: Guid(f0c21875b15af264db996644ed07d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/Animations using Guid(f0c21875b15af264db996644ed07d053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd494c7b51dba91de9f851f4d3d6510') in 0.009239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006430 seconds.
+  path: Assets/Modular Castle/Assets/Materials
+  artifactKey: Guid(d42184b0ef0002044a1b96645973b6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/Materials using Guid(d42184b0ef0002044a1b96645973b6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9e70072425cc6e376af215a8ff10a3') in 0.004084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011603 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Sprint.controller
+  artifactKey: Guid(6cc513001c84c714baa94b6d24a332c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Sprint.controller using Guid(6cc513001c84c714baa94b6d24a332c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56e0a14b5560d3b4e4d69e8997fef0b') in 0.013116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011842 seconds.
+  path: Assets/Scripts/GhostBehavior/ClydeBehavior.cs
+  artifactKey: Guid(4602da44a1da47040832f05770cb68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GhostBehavior/ClydeBehavior.cs using Guid(4602da44a1da47040832f05770cb68fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486dfa59692ec6678cc20c1f23361a2f') in 0.009025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030654 seconds.
+  path: Assets/Prefabs/Blinky.prefab
+  artifactKey: Guid(9c3309d081d92ae48a6b1fb516525ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blinky.prefab using Guid(9c3309d081d92ae48a6b1fb516525ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bd85e0cdff3f2631babec418637f37') in 0.027168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012766 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/bed1.prefab
+  artifactKey: Guid(4262c5895a7ed7f47b98ea94be746d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/bed1.prefab using Guid(4262c5895a7ed7f47b98ea94be746d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4e06ec71988ef5a752893c8b26fa32') in 0.033768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011500 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/wall3.prefab
+  artifactKey: Guid(a0ffc3f89f6564d4db93360de7c64c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/wall3.prefab using Guid(a0ffc3f89f6564d4db93360de7c64c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab3c0a6c2498ed35ab4c74c584bc7d0') in 0.042849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028191 seconds.
+  path: Assets/Prefabs/CentralChamber.prefab
+  artifactKey: Guid(caec7ca512a5a74498eea79c02e53a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CentralChamber.prefab using Guid(caec7ca512a5a74498eea79c02e53a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972fb2e285b77937bb52f67d5d6e6c31') in 0.272591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017461 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Jump.controller
+  artifactKey: Guid(54ff599963ec97843ad4d4ddeeb61810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Jump.controller using Guid(54ff599963ec97843ad4d4ddeeb61810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9becf570860891508ec0cb015f73435f') in 0.019624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017041 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/candle3.prefab
+  artifactKey: Guid(488fb4bf55e88e243a3d0bfaa7e42703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/candle3.prefab using Guid(488fb4bf55e88e243a3d0bfaa7e42703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922f3aa93dea1b56fb855922c6448ff1') in 0.042727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014929 seconds.
+  path: Assets/Modular Castle/Assets/Materials/light.mat
+  artifactKey: Guid(2f9423c83026ebb4fa30338b0fc7c8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/Materials/light.mat using Guid(2f9423c83026ebb4fa30338b0fc7c8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eef23a101c28fcd44de0fb6d3f594dd') in 0.022477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017229 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunLeft.controller
+  artifactKey: Guid(c9043fd785d9d3b409a591f59c8fa693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunLeft.controller using Guid(c9043fd785d9d3b409a591f59c8fa693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af18342547bf4226d3dfbaedf10bbde') in 0.013337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014903 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/doorway2.prefab
+  artifactKey: Guid(eda319de497b2a4449c2ab39265a3ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/doorway2.prefab using Guid(eda319de497b2a4449c2ab39265a3ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabff32a8baf4e14d3d0627a75d80978') in 0.031134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018248 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/decoration2.prefab
+  artifactKey: Guid(0c5f6d8c494dfe849ae0d9fa17abad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/decoration2.prefab using Guid(0c5f6d8c494dfe849ae0d9fa17abad8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94aec3b2a3a80fcafadf6bda2ea04b29') in 0.034436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015959 seconds.
+  path: Assets/Modular Castle/Assets/Materials/castle.mat
+  artifactKey: Guid(72f445fef8019584a84beb496a2ac491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/Materials/castle.mat using Guid(72f445fef8019584a84beb496a2ac491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a624ebba8e1605e11cab0dfb820f51') in 0.032106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013795 seconds.
+  path: Assets/Modular Castle/Assets/prefabs/carpet2.prefab
+  artifactKey: Guid(35c6d94887fe5a84ba4a460acffa37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs/carpet2.prefab using Guid(35c6d94887fe5a84ba4a460acffa37ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b319726761988adc2c17e16d3c9998') in 0.032226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011673 seconds.
+  path: Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackwardRight.controller
+  artifactKey: Guid(8ea3f04f627c24b498a33d15fb5ee83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Melee Warrior Animations/AnimatorControllers/1H/1H@RunBackwardRight.controller using Guid(8ea3f04f627c24b498a33d15fb5ee83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e59e746fcde192c9288a8b6d40e886') in 0.010042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006639 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions
+  artifactKey: Guid(2cb279c410b7a3e4dbf4aab42283effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions using Guid(2cb279c410b7a3e4dbf4aab42283effa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e576ef97b26abf89e199dd7b892e27') in 0.009902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011415 seconds.
+  path: Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Idle.controller
+  artifactKey: Guid(a8555c0cff30527479e32562cef9141f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias/Basic Motions/AnimationControllers/BasicMotions@Idle.controller using Guid(a8555c0cff30527479e32562cef9141f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d2bf9e014ecd15a0bd8b03e30928d9') in 0.017401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013080 seconds.
+  path: Assets/Modular Castle/Assets/prefabs2/barrel 1.prefab
+  artifactKey: Guid(5b10739b451ff7e4d8d43fe0b44921a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle/Assets/prefabs2/barrel 1.prefab using Guid(5b10739b451ff7e4d8d43fe0b44921a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f659b60e3c8fb6208193b25b5894d831') in 0.039053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008494 seconds.
+  path: Assets/Kevin Iglesias
+  artifactKey: Guid(d2b7ae48a4ec74f479890926ba545d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kevin Iglesias using Guid(d2b7ae48a4ec74f479890926ba545d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7110bb0a2125fa58f2647d8bef8860f') in 0.009160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013220 seconds.
+  path: Assets/AnimatorControllers/PlayerController.controller
+  artifactKey: Guid(6d5a7b62defb0824cbf2696604a2cf9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorControllers/PlayerController.controller using Guid(6d5a7b62defb0824cbf2696604a2cf9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b303079ac0879af144f513349c48b6') in 0.015317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007975 seconds.
+  path: Assets/Modular Castle
+  artifactKey: Guid(c8364f88750c1134e893cc61c81fc44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modular Castle using Guid(c8364f88750c1134e893cc61c81fc44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aef1cf9ddd02caa2793ff796c7aaf97') in 0.014530 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
